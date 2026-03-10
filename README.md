@@ -1,4 +1,4 @@
-# CV Cristel LEMAITRE
+# Mon CV
 
 CV interactif en HTML, CSS et JavaScript pur. Aucune dépendance externe, aucun framework.
 
