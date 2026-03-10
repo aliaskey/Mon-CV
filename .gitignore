@@ -1,0 +1,31 @@
+# Fichiers système macOS
+.DS_Store
+
+# Fichiers système Windows
+Thumbs.db
+desktop.ini
+
+# Dossiers dépendances
+node_modules/
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers éditeur VS Code
+.vscode/
+
+# Fichiers environnement
+.env
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# Fichiers build
+dist/
+build/
