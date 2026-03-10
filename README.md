@@ -1,38 +1,68 @@
 # Mon CV
 
-CV interactif en HTML, CSS et JavaScript pur. Aucune dépendance externe, aucun framework.
+CV interactif développé en HTML, CSS et JavaScript natif.  
+Aucun framework. Aucune dépendance côté build.
 
-## Structure du projet
+## 🌐 Version en ligne
+
+Consulter le CV :  
+https://aliaskey.github.io/Mon-CV/
+
+Un QR code est intégré dans le CV pour un accès mobile rapide.
+
+
+## 📁 Structure du projet
 
 ```
-├── Mon-CV.html   Page principale
-├── style.css                  Styles et animations CSS
-├── animations.js              Scripts d'animation JavaScript
-└── avatar.jpg                 Photo de profil
+├── index.html Page principale
+├── style.css Styles et animations CSS
+├── animations.js Scripts d’animation JavaScript
+└── avatar.jpg Photo de profil
 ```
 
-## Animations
 
-- Confettis roses au chargement de la page
+---
+
+## ✨ Animations et interactions
+
+- Confettis au chargement de la page
 - Curseur personnalisé avec anneau suiveur
-- Effet machine à écrire sur le titre du poste
-- Rebond des tags au survol
+- Effet machine à écrire sur l’intitulé de poste
+- Animation de rebond des tags au survol
+- QR code dynamique vers la version en ligne
 
-## Utilisation
+---
 
-Ouvrir `index.html` dans un navigateur. Les trois fichiers et `avatar.jpg` doivent être dans le même dossier.
+## ▶️ Utilisation locale
 
-Pour tester en local avec Formspree ou tout service externe, lancer un serveur local :
-dans TERMNAL
+Ouvrir simplement `index.html` dans un navigateur.  
+Les fichiers doivent rester dans le même dossier.
+
+---
+
+## 🧪 Lancer un serveur local
+
+Utile pour certains navigateurs et services externes.
+
+Dans le terminal :
+
 ```bash
 python3 -m http.server 8080
-```
 
 Puis ouvrir : `http://localhost:8080/index.html`
+---
+##  🖨️ Impression et export PDF
 
-## Impression et export PDF
-
-Le fichier inclut une règle `@media print` qui supprime les animations, le curseur et les ombres. Pour exporter en PDF, ouvrir dans Chrome ou Firefox, Ctrl + P, choisir "Enregistrer en PDF", format A4, marges à zéro.
+Une règle @media print :
+supprime les animations
+masque le curseur personnalisé
+retire les ombres
+Export PDF :
+Ouvrir le CV dans Chrome ou Firefox
+Ctrl + P
+Destination : « Enregistrer en PDF »
+Format : A4
+Marges : Aucune
 
 ## Compatibilité ATS
 
