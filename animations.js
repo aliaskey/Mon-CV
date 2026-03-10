@@ -116,3 +116,15 @@
 
   setTimeout(type, 750);
 })();
+
+// QR Code CV en ligne
+document.addEventListener("DOMContentLoaded", function () {
+  const qrContainer = document.getElementById("qrcode");
+  if (qrContainer) {
+    new QRCode(qrContainer, {
+      text: "https://aliaskey.github.io/Mon-CV/",
+      width: 100,
+      height: 100
+    });
+  }
+});

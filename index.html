@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script src="animations.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
 <body>
 
@@ -79,16 +80,23 @@
     </div>
 
     <div class="s-section">
-      <div class="s-label">Atouts</div>
-      <div class="tag-list">
-        <span class="tag">Rigueur</span>
-        <span class="tag">Méthode</span>
-        <span class="tag">Adaptabilité</span>
-        <span class="tag">Curiosité</span>
-        <span class="tag">Travail en équipe</span>
-        <span class="tag">Communication</span>
-      </div>
-    </div>
+  <div class="s-label">Atouts</div>
+  <div class="tag-list">
+    <span class="tag">Rigueur</span>
+    <span class="tag">Méthode</span>
+    <span class="tag">Adaptabilité</span>
+    <span class="tag">Curiosité</span>
+    <span class="tag">Travail en équipe</span>
+    <span class="tag">Communication</span>
+  </div>
+</div>
+
+<div class="s-section">
+  <div class="s-label">Voir mon CV en ligne</div>
+  <div id="qrcode"></div>
+  <div class="qr-label">Scanner pour ouvrir</div>
+</div>
+
   </aside>
 
   <!-- MAIN -->
@@ -218,5 +226,6 @@
 
   </main>
 </div>
+
 </body>
 </html>

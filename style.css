@@ -368,6 +368,15 @@ body {
     bottom: calc(-1.4rem - 1px);
   }
 }
+#qrcode {
+  margin-top: 10px;
+}
+
+.qr-label {
+  margin-top: 6px;
+  font-size: 0.85rem;
+  color: #555;
+}
 
 /* CURSEUR PERSONNALISE */
 body { cursor: none; }

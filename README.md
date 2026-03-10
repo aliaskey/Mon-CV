@@ -23,7 +23,7 @@ CV interactif en HTML, CSS et JavaScript pur. Aucune dépendance externe, aucun 
 Ouvrir `index.html` dans un navigateur. Les trois fichiers et `avatar.jpg` doivent être dans le même dossier.
 
 Pour tester en local avec Formspree ou tout service externe, lancer un serveur local :
-
+dans TERMNAL
 ```bash
 python3 -m http.server 8080
 ```
