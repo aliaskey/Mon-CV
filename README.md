@@ -5,7 +5,7 @@ CV interactif en HTML, CSS et JavaScript pur. Aucune dépendance externe, aucun 
 ## Structure du projet
 
 ```
-├── CV_Cristel_LEMAITRE.html   Page principale
+├── Mon-CV.html   Page principale
 ├── style.css                  Styles et animations CSS
 ├── animations.js              Scripts d'animation JavaScript
 └── avatar.jpg                 Photo de profil
@@ -20,7 +20,7 @@ CV interactif en HTML, CSS et JavaScript pur. Aucune dépendance externe, aucun 
 
 ## Utilisation
 
-Ouvrir `CV_Cristel_LEMAITRE.html` dans un navigateur. Les trois fichiers et `avatar.jpg` doivent être dans le même dossier.
+Ouvrir `index.html` dans un navigateur. Les trois fichiers et `avatar.jpg` doivent être dans le même dossier.
 
 Pour tester en local avec Formspree ou tout service externe, lancer un serveur local :
 
@@ -28,7 +28,7 @@ Pour tester en local avec Formspree ou tout service externe, lancer un serveur l
 python3 -m http.server 8080
 ```
 
-Puis ouvrir : `http://localhost:8080/CV_Cristel_LEMAITRE.html`
+Puis ouvrir : `http://localhost:8080/index.html`
 
 ## Impression et export PDF
 
